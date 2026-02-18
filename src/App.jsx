@@ -210,14 +210,14 @@ export default function App() {
             </div>
 
             {/* Legend */}
-            <div className="flex items-center justify-center gap-6 mt-4">
-              <div className="flex items-center gap-2">
-                <div className="w-4 h-0.5 bg-[#94a3b8] rounded" />
-                <span className="text-[10px] text-[#94a3b8]">Traditional (ocean freight)</span>
+            <div className="flex items-center justify-center gap-8 mt-6">
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-1 bg-[#94a3b8] rounded-full" />
+                <span className="text-sm font-semibold text-[#94a3b8]">Traditional 3PL</span>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-4 h-0.5 bg-[#df5c2f] rounded" />
-                <span className="text-[10px] text-[#df5c2f]">Portless (direct fulfillment)</span>
+              <div className="flex items-center gap-3">
+                <div className="w-8 h-1 bg-[#df5c2f] rounded-full" />
+                <span className="text-sm font-semibold text-[#df5c2f]">Point-Of-Origin 3PL (Portless)</span>
               </div>
             </div>
           </div>
