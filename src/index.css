@@ -2,19 +2,20 @@
 
 @theme {
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --color-bg-primary: #0a0b0f;
-  --color-bg-card: #12131a;
-  --color-bg-input: #1a1b24;
-  --color-border: #2a2b35;
-  --color-border-hover: #3a3b45;
-  --color-portless: #10b981;
-  --color-portless-light: #34d399;
-  --color-portless-glow: rgba(16, 185, 129, 0.15);
-  --color-traditional: #6b7280;
-  --color-traditional-light: #9ca3af;
-  --color-delta-positive: #10b981;
+  --color-bg-primary: #ffffff;
+  --color-bg-card: #f8f9fb;
+  --color-bg-input: #f0f4f8;
+  --color-border: #e2e8f0;
+  --color-border-hover: #cbd5e1;
+  --color-portless: #df5c2f;
+  --color-portless-light: #e8764f;
+  --color-portless-glow: rgba(223, 92, 47, 0.15);
+  --color-traditional: #94a3b8;
+  --color-traditional-light: #cbd5e1;
+  --color-delta-positive: #df5c2f;
   --color-delta-negative: #ef4444;
-  --color-accent: #8b5cf6;
+  --color-accent: #0d1f5f;
+  --color-navy: #0d1f5f;
 }
 
 * {
@@ -25,7 +26,7 @@ body {
   margin: 0;
   font-family: var(--font-sans);
   background-color: var(--color-bg-primary);
-  color: #e5e7eb;
+  color: #334155;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -36,7 +37,7 @@ input[type="range"] {
   appearance: none;
   width: 100%;
   height: 6px;
-  background: #1a1b24;
+  background: #e2e8f0;
   border-radius: 3px;
   outline: none;
   cursor: pointer;
@@ -48,24 +49,24 @@ input[type="range"]::-webkit-slider-thumb {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #10b981;
+  background: #df5c2f;
   cursor: pointer;
-  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+  box-shadow: 0 0 8px rgba(223, 92, 47, 0.4);
   transition: box-shadow 0.2s;
 }
 
 input[type="range"]::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 14px rgba(16, 185, 129, 0.6);
+  box-shadow: 0 0 14px rgba(223, 92, 47, 0.6);
 }
 
 input[type="range"]::-moz-range-thumb {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #10b981;
+  background: #df5c2f;
   cursor: pointer;
   border: none;
-  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+  box-shadow: 0 0 8px rgba(223, 92, 47, 0.4);
 }
 
 /* Custom scrollbar */
@@ -76,11 +77,11 @@ input[type="range"]::-moz-range-thumb {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a2b35;
+  background: #cbd5e1;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3a3b45;
+  background: #94a3b8;
 }
 
 /* Animated number transitions */
@@ -94,8 +95,8 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .recharts-default-tooltip {
-  background: #12131a !important;
-  border: 1px solid #2a2b35 !important;
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
   border-radius: 8px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08) !important;
 }
