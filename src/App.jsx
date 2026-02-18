@@ -222,22 +222,6 @@ export default function App() {
             </div>
           </div>
 
-          {/* Assumptions */}
-          <div className="mb-8 px-1">
-            <p className="text-[11px] text-[#94a3b8] leading-relaxed mb-2">
-              <span className="text-[#64748b] font-medium">Model assumptions:</span>{' '}
-              Revenue is reinvested into marketing each cycle. Marketing takes ~3 weeks to convert to sales.
-              Ad efficiency decays 3.5% monthly as spend scales (rising CPAs, audience saturation).
-              Traditional model uses ~3.5-month cash cycles (ocean freight + customs + inbound).
-              Portless model uses ~1-month cycles. Longer supplier terms let Portless overlap inventory orders,
-              increasing the growth ceiling.
-            </p>
-            <p className="text-[11px] text-[#94a3b8] italic">
-              This shows the power of faster cash cycles — not a guarantee of exact results.
-              Actual growth depends on your product, market, and execution.
-            </p>
-          </div>
-
           {/* Insight */}
           <p className="text-center text-[13px] text-[#64748b] mb-8">
             The only difference is how fast your inventory turns into cash you can reinvest.
