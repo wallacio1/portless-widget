@@ -230,7 +230,7 @@ export default function App() {
           {/* CTA */}
           <div className="text-center mb-10">
             <a
-              href="https://www.portless.com/"
+              href="https://www.portless.com/?utm_source=cash_velocity_calculator&utm_medium=widget&utm_campaign=portless_demo_cta&utm_content=book_a_demo_button"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-2.5 rounded-[10px] bg-[#df5c2f] text-white text-sm font-semibold
